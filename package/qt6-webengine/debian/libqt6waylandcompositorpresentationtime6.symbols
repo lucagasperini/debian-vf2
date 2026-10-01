@@ -1,0 +1,16 @@
+# SymbolsHelper-Confirmed: 6.8.2 amd64
+libQt6WaylandCompositorPresentationTime.so.6 libqt6waylandcompositorpresentationtime6 #MINVER#
+| libqt6waylandcompositorpresentationtime6 #MINVER#, qt6-waylandcompositor-private-abi (= 6.10.2)
+* Build-Depends-Packages: qt6-wayland-dev, qt6-wayland-private-dev
+ NonQt@NonQt 6.8.2
+ Qt_6@Qt_6 6.8.2
+ (symver)Qt_6_PRIVATE_API 0 1
+ _Z56qml_register_types_QtWayland_Compositor_PresentationTimev@Qt_6 6.8.2
+ _ZN38QWaylandPresentationTimeQuickExtension11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.8.2
+ _ZN38QWaylandPresentationTimeQuickExtension11qt_metacastEPKc@Qt_6 6.8.2
+ _ZN38QWaylandPresentationTimeQuickExtension16staticMetaObjectE@Qt_6 6.8.2
+ _ZNK38QWaylandPresentationTimeQuickExtension10metaObjectEv@Qt_6 6.8.2
+ _ZTI38QWaylandPresentationTimeQuickExtension@Qt_6 6.8.2
+ _ZTS35QWaylandCompositorExtensionTemplateI24QWaylandPresentationTimeE@Qt_6 6.8.2
+ _ZTS38QWaylandPresentationTimeQuickExtension@Qt_6 6.8.2
+ _ZTV38QWaylandPresentationTimeQuickExtension@Qt_6 6.8.2

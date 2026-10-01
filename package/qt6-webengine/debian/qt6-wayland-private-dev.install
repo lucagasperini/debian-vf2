@@ -1,0 +1,13 @@
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandCompositor/6.*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandCompositorIviapplication/6.*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandCompositorPresentationTime/6.*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandCompositorWLShell/6.*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandCompositorXdgShell/6.*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandEglCompositorHwIntegration/6.*
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandclientfeatures_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandcompositoriviapplication_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandcompositorpresentationtime_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandcompositor_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandcompositorwlshell_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandcompositorxdgshell_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_wayland_egl_compositor_hw_integration_private.pri

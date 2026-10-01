@@ -1,0 +1,31 @@
+# SymbolsHelper-Confirmed: 6.8.2 amd64
+libQt6WaylandCompositorXdgShell.so.6 libqt6waylandcompositorxdgshell6 #MINVER#
+| libqt6waylandcompositorxdgshell6 #MINVER#, qt6-waylandcompositor-private-abi (= 6.10.2)
+* Build-Depends-Packages: qt6-wayland-dev, qt6-wayland-private-dev
+ NonQt@NonQt 6.8.2
+ Qt_6@Qt_6 6.8.2
+ (symver)Qt_6_PRIVATE_API 0 1
+ _Z48qml_register_types_QtWayland_Compositor_XdgShellv@Qt_6 6.8.2
+ _ZN30QWaylandXdgShellQuickExtension11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.8.2
+ _ZN30QWaylandXdgShellQuickExtension11qt_metacastEPKc@Qt_6 6.8.2
+ _ZN30QWaylandXdgShellQuickExtension16staticMetaObjectE@Qt_6 6.8.2
+ _ZN40QWaylandXdgOutputManagerV1QuickExtension11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.8.2
+ _ZN40QWaylandXdgOutputManagerV1QuickExtension11qt_metacastEPKc@Qt_6 6.8.2
+ _ZN40QWaylandXdgOutputManagerV1QuickExtension16staticMetaObjectE@Qt_6 6.8.2
+ _ZN44QWaylandXdgDecorationManagerV1QuickExtension11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.8.2
+ _ZN44QWaylandXdgDecorationManagerV1QuickExtension11qt_metacastEPKc@Qt_6 6.8.2
+ _ZN44QWaylandXdgDecorationManagerV1QuickExtension16staticMetaObjectE@Qt_6 6.8.2
+ _ZNK30QWaylandXdgShellQuickExtension10metaObjectEv@Qt_6 6.8.2
+ _ZNK40QWaylandXdgOutputManagerV1QuickExtension10metaObjectEv@Qt_6 6.8.2
+ _ZNK44QWaylandXdgDecorationManagerV1QuickExtension10metaObjectEv@Qt_6 6.8.2
+ _ZTI30QWaylandXdgShellQuickExtension@Qt_6 6.8.2
+ _ZTI40QWaylandXdgOutputManagerV1QuickExtension@Qt_6 6.8.2
+ _ZTI44QWaylandXdgDecorationManagerV1QuickExtension@Qt_6 6.8.2
+ _ZTS30QWaylandXdgShellQuickExtension@Qt_6 6.8.2
+ _ZTS35QWaylandCompositorExtensionTemplateI26QWaylandXdgOutputManagerV1E@Qt_6 6.8.2
+ _ZTS35QWaylandCompositorExtensionTemplateI30QWaylandXdgDecorationManagerV1E@Qt_6 6.8.2
+ _ZTS40QWaylandXdgOutputManagerV1QuickExtension@Qt_6 6.8.2
+ _ZTS44QWaylandXdgDecorationManagerV1QuickExtension@Qt_6 6.8.2
+ _ZTV30QWaylandXdgShellQuickExtension@Qt_6 6.8.2
+ _ZTV40QWaylandXdgOutputManagerV1QuickExtension@Qt_6 6.8.2
+ _ZTV44QWaylandXdgDecorationManagerV1QuickExtension@Qt_6 6.8.2

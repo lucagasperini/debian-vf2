@@ -1,0 +1,16 @@
+# SymbolsHelper-Confirmed: 6.8.2 amd64
+libQt6WaylandCompositorIviapplication.so.6 libqt6waylandcompositoriviapplication6 #MINVER#
+| libqt6waylandcompositoriviapplication6 #MINVER#, qt6-waylandcompositor-private-abi (= 6.10.2)
+* Build-Depends-Packages: qt6-wayland-dev, qt6-wayland-private-dev
+ NonQt@NonQt 6.8.2
+ Qt_6@Qt_6 6.8.2
+ (symver)Qt_6_PRIVATE_API 0 1
+ _Z54qml_register_types_QtWayland_Compositor_IviApplicationv@Qt_6 6.8.2
+ _ZN36QWaylandIviApplicationQuickExtension11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.8.2
+ _ZN36QWaylandIviApplicationQuickExtension11qt_metacastEPKc@Qt_6 6.8.2
+ _ZN36QWaylandIviApplicationQuickExtension16staticMetaObjectE@Qt_6 6.8.2
+ _ZNK36QWaylandIviApplicationQuickExtension10metaObjectEv@Qt_6 6.8.2
+ _ZTI36QWaylandIviApplicationQuickExtension@Qt_6 6.8.2
+ _ZTS35QWaylandCompositorExtensionTemplateI22QWaylandIviApplicationE@Qt_6 6.8.2
+ _ZTS36QWaylandIviApplicationQuickExtension@Qt_6 6.8.2
+ _ZTV36QWaylandIviApplicationQuickExtension@Qt_6 6.8.2
