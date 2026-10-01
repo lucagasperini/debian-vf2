@@ -1,0 +1,94 @@
+Source: plasma-bigscreen
+Section: kde
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Scarlett Moore <sgmoore@debian.org>,
+           Patrick Franz <deltaone@debian.org>,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-kf6,
+               dh-sequence-pkgkde-symbolshelper,
+               dh-sequence-plasma,
+               dh-sequence-qmldeps,
+               cmake (>= 3.24~),
+               extra-cmake-modules (>= 6.14.0~),
+               libkf6bluezqt-dev (>= 6.14.0~),
+               libkf6config-dev (>= 6.14.0~),
+               libkf6dbusaddons-dev (>= 6.14.0~),
+               libkf6globalaccel-dev (>= 6.14.0~),
+               libkf6i18n-dev (>= 6.14.0~),
+               libkf6iconthemes-dev (>= 6.14.0~),
+               libkf6kcmutils-dev (>= 6.14.0~),
+               libkf6kio-dev (>= 6.14.0~),
+               libkf6notifications-dev (>= 6.14.0~),
+               libkf6svg-dev (>= 6.14.0~),
+               libkf6windowsystem-dev (>= 6.14.0~),
+               libkirigami-dev (>= 6.14.0~),
+               libkscreen-dev,
+               libplasma-dev (>= 6.7.0~),
+               libplasmaactivities-dev (>= 6.7.0~),
+               libplasmaactivitiesstats-dev (>= 6.7.0~),
+               libsdl3-dev,
+               libwayland-dev,
+               plasma-pa,
+               plasma-wayland-protocols,
+               plasma-workspace-dev (>= 4:6.7.0~),
+               powerdevil,
+               qcoro-qt6-dev (>= 0.7.0~),
+               qml6-module-org-kde-kdeconnect,
+               qml6-module-org-kde-layershell,
+               qml6-module-org-kde-milou,
+               qml6-module-org-kde-networkmanager,
+               qml6-module-org-kde-plasma-plasma5support,
+               qt6-base-dev (>= 6.10.0~),
+               qt6-declarative-dev (>= 6.10.0~),
+               qt6-multimedia-dev (>= 6.10.0~),
+               qt6-wayland-dev (>= 6.10.0~),
+               qt6-webengine-dev (>= 6.10.0~),
+Standards-Version: 4.7.4
+Homepage: https://invent.kde.org/plasma/plasma-bigscreen
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-bigscreen
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-bigscreen.git
+
+Package: plasma-bigscreen
+Architecture: amd64 arm64 armhf i386 riscv64
+Depends: libkf6kcmutils-bin,
+         plasma-nano,
+         plasma-nm,
+         plasma-workspace,
+         python3,
+         systemsettings,
+         ${misc:Depends},
+         ${plasma-version:Depends},
+         ${qml6:Depends},
+         ${shlibs:Depends},
+Description: Plasma Bigscreen for TVs
+ A big launcher giving you easy access to any installed apps and skills.
+ Controllable via voice or TV remote.
+ This project is using various open-source components like Plasma Bigscreen,
+ Mycroft AI and libcec.
+ .
+ Voice Control
+ Bigscreen supports Mycroft AI, a free and open-source voice assistant that
+ can be run completely decentralized on your own server.
+ .
+ Remote control your TV via CEC
+ Consumer Electronics Control is a standard to control devices over HDMI.
+ Use your normal TV remote control, or a RC with built-in microphone for
+ voice control and optional mouse simulation.
+ .
+ Coming soon:
+ Voice apps
+ Download new apps (aka skills) for your Bigscreen or add your own ones
+ for others to enjoy.
+
+Package: qml6-module-org-kde-bigscreen
+Architecture: amd64 arm64 armhf i386 riscv64
+Multi-Arch: same
+Depends: ${misc:Depends},
+         ${plasma-version:Depends},
+         ${qml6:Depends},
+         ${shlibs:Depends},
+Description: Plasma Bigscreen for TVs - QML module
+ A big launcher giving you easy access to any installed apps and skills.
+ .
+ This package contains the QML components for the Plasma Bigscreen.

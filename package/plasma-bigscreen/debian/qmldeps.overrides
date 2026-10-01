@@ -1,0 +1,5 @@
+org.kde.bigscreen.webapp qml6-module-org-kde-bigscreen
+org.kde.private.biglauncher qml6-module-org-kde-bigscreen
+org.kde.plasma.networkmanagement plasma-nm
+org.kde.plasma.private.nanoshell plasma-nano
+org.kde.plasma.private.volume plasma-pa

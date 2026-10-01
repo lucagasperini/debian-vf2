@@ -1,0 +1,27 @@
+# kcmshell6 executable required for the KCM is provided by the Recommends: libkf6kcmutils-bin dependency
+plasma-bigscreen: desktop-command-not-in-package kcmshell6 [usr/share/applications/kcm_mediacenter_bluetooth.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_audiodevice.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_bigscreen_settings.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_display.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_input.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_kdeconnect.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_wallpaper.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_webapps.desktop]
+
+# systemsettings executable required for the KCM is provided by the Recommends: systemsettings dependency
+plasma-bigscreen: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_mediacenter_wifi.desktop]
+
